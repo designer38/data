@@ -6546,6 +6546,7 @@ body {
     width: 100%;
     background-color: #EAEAEA; }
     body .news .small-card {
+      overflow: scroll; 
       background-color: white;
       width: 100%;
       height: auto;
@@ -6578,6 +6579,7 @@ body {
       float: right; }
     body .news .box-style {
       width: 100%;
+      overflow: scroll; 
       background-color: white;
       border-radius: 12px;
       position: relative;
@@ -6617,6 +6619,7 @@ body {
         transform: scale(1.1); }
     body .news .box-style2 {
       width: 100%;
+      overflow: scroll; 
       background-color: white;
       border-radius: 12px;
       position: relative;
@@ -6684,7 +6687,11 @@ body {
       width: 55%;
       border-color: #C92127;
       margin-bottom: 2rem; }
+      .news-detail-style .smallcard p{
+        overflow: scroll; width:300px; height:200px;
+      }
     body .news-details-style .small-card {
+
       background-color: white;
       width: 100%;
       height: auto;
@@ -6694,7 +6701,8 @@ body {
         color: #C92127;
         margin-right: 6rem; }
       body .news-details-style .small-card .content-text {
-        width: 200px; }
+        overflow: scroll; width:200px; height:200px;
+         }
       body .news-details-style .small-card img {
         width: 30%;
         height: 100%;
