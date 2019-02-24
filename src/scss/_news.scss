@@ -10,6 +10,7 @@ body {
     width:100%;
     background-color: $lightcolor;
     padding-top:2rem;
+   padding-bottom:2rem;
     
     .box-style{
         width: 100%;
@@ -19,6 +20,21 @@ body {
         overflow: hidden;
         height: auto;
         padding-bottom:3rem;
+        .date-box{
+            position: absolute;
+            font-family: "lato";
+            font-weight: 600;
+            font-size: 20px;
+            color:white;
+            background-color:$redcolor;
+            margin-top:2rem;
+            width:70px;
+            height:70px;
+            text-align: center;
+            p{
+                margin:0;
+            }
+        }
         img{
             max-width:100%;
             border-radius: 12px 12px 0px 0px;
@@ -57,7 +73,7 @@ body {
         font-family: "lato";
             font-weight: "regular";
             color: $redcolor;
-            font-size: 18px;
+            font-size: 25px;
     }
     .card-text{
         font-family: "lato";

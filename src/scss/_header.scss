@@ -7,6 +7,20 @@ body {
   width: 100%;
   height: 100%;
   font-family: sans-serif;
+  .main{
+    .carousel-control-prev-icon {
+        background-image: url("left-arrow-chevron (2).png");
+        margin-right:7.5rem;
+    }
+    .carousel-control-next-icon {
+        background-image: url("right-chevron.png");
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon{
+        width:100px;
+        height: 100px;
+    }
+  }
+ 
     .homelink{
         margin-left: 5rem;
     }
@@ -62,14 +76,13 @@ body {
             margin-left: 2rem;
         }
     }
-    
-    header {
+    .bg1 {
         width:100%;
         position: relative;
-        background-image: url("picture.png");
+        background-image: url("picture1.png");
         background-size: cover;
         background-repeat: no-repeat;
-        height: 100vh;
+        height: 70vh;
         display:table;
         p {
             margin: 0em;
@@ -101,6 +114,95 @@ body {
                 font-family: "lato";
                 font-weight: 600;
                 color: $darkcolor;
+            }
+            .button {
+                font-size: 20px;
+                font-family: "lato";
+                font-weight: "regular";
+                width: 200px;
+                padding: 12px 28px;
+                background-color: transparent;
+                border: solid white 3px;
+                color: white;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+            }
+            .button:hover{
+                background-color: WHITE;
+                color:$darkcolor;
+            }
+            .button2 {
+                font-size: 20px;
+                font-family: "lato";
+                font-weight: "regular";
+                width: 200px;
+                padding: 12px 28px;
+                background-color: $redcolor;
+                border: none;
+                color: white;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+            }
+            .buttons-box {
+                
+            }
+            
+        }
+       
+        .left-arrow-style {
+            position: absolute;
+            top: 45%;
+            left: 1%;
+        }
+       
+    }
+    
+    .bg2 {
+        width:100%;
+        position: relative;
+        background-image: url("picture2.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 70vh;
+        display:table;
+        p {
+            margin: 0em;
+        }
+        .box-content {
+            padding-left: 7.5rem;
+            display:table-cell;
+            vertical-align:middle;
+            text-align:left;
+            p {
+                margin: 0em;
+            }
+            .main-text {
+                font-size: 100px;
+                font-family: "lato";
+                font-weight: 700;
+                color: $redcolor;
+                
+            }
+            .sub-text {
+                
+                font-size: 50px;
+                font-family: "lato";
+                font-weight: "regular";
+                color: white;
+            }
+            .content {
+                width: 500px;
+                font-family: "lato";
+                font-weight: 600;
+                color: white;
             }
             .button {
                 font-size: 20px;
