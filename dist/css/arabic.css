@@ -6627,8 +6627,16 @@ body {
     width: 100%; }
     body footer .image-margin {
       margin-bottom: -5px; }
-      body footer a {
-        color:black; }
+      body  footer a{
+      
+        color:black;
+      
+    }
+   body footer a:hover{
+      
+      color:#C92127;
+    
+  }
     body footer .text-box {
       width: 100%;
       font-size: 18px; }
@@ -6924,7 +6932,7 @@ body {
       padding: 2rem; }
       body .news-details-style .small-card .text-red {
         color: #C92127;
-        margin-right: 6rem;
+        
         font-family: 'Tajawal'; }
       body .news-details-style .small-card .content-text {
         width: 200px;
@@ -7488,6 +7496,22 @@ nav .navbar-toggle .icon-bar {
     color: #1C1C1C; }
   .copy-right .social-icons .margin-social {
     margin-left: 6rem; }
+    .copy-right .social-icons a:hover {
+      cursor: pointer;
+      color: #C92127; 
+      text-decoration:none}
+      .copy-right  a:hover {
+        cursor: pointer;
+        color: #C92127;
+        text-decoration:none }
+        .copy-right .social-icons a:hover {
+          cursor: pointer;
+          color: #C92127;
+          text-decoration:none }
+          .copy-right .social-icons i:hover {
+            cursor: pointer;
+            color: #C92127;
+          text-decoration:none }
 
 #myBtn {
   display: none;

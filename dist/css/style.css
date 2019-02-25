@@ -6318,6 +6318,16 @@ body {
     background-color: #EAEAEA;
     padding-top: 2rem;
     padding-bottom: 2rem; }
+    footer a{
+      
+        color:black;
+      
+    }
+    footer a:hover{
+      
+      color:#C92127;
+    
+  }
     body .news-style .box-style {
       width: 100%;
       background-color: white;
@@ -7339,7 +7349,20 @@ body {
   background-color: #EAEAEA; }
   .copy-right .social-icons a {
     cursor: pointer;
-    color: #1C1C1C; }
+    color: #1C1C1C;
+    text-decoration:none }
+    .copy-right .social-icons a:hover {
+      cursor: pointer;
+      color: #C92127;
+      text-decoration:none }
+      .copy-right .social-icons i:hover {
+        cursor: pointer;
+        color: #C92127;
+        text-decoration:none }
+      .copy-right  a:hover {
+        cursor: pointer;
+        color: #C92127;
+        text-decoration:none }
   .copy-right .social-icons .margin-social {
     margin-left: 6rem; }
 
